@@ -12,7 +12,7 @@ http://localhost:8761/
 ### Microservice Product
 GET
 
-    curl -X GET http://localhost:8090/products  -H 'Accept: application/json' | jq '.'
+     http://localhost:8090/products 
 
 POST
 
@@ -28,7 +28,7 @@ POST
 ### Microservice Customer
 GET
 
-    curl -X GET http://localhost:8091/customers    -H 'Accept: application/json' | jq '.'
+    ttp://localhost:8091/customers
 
 POST
 
@@ -49,7 +49,7 @@ POST
 
 ### Microservice Shopping
 GET
-    curl -X GET http://localhost:8092/invoices/1 -H 'Accept: application/json' | jq '.'
+    http://localhost:8092/invoices/1
 
 POST
 
@@ -79,13 +79,13 @@ POST
 
 Customer
 
-    curl -X GET http://localhost:8080/customers    -H 'Accept: application/json' | jq '.'
+    GET http://localhost:8085/customers
 
 Products
 
-    curl -X GET http://localhost:8080/products  -H 'Accept: application/json' | jq '.'
+    GET http://localhost:8085/products
 
 
 Invoices
 
-    curl -X GET http://localhost:8080/invoices/1 -H 'Accept: application/json' | jq '.'
+    GET http://localhost:8085/invoices
