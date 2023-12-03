@@ -6,7 +6,7 @@
 
 ### Discovery  Service (Eureka)
     
-http://localhost:8099/
+http://localhost:8761/
 
 
 ### Microservice Product
